@@ -12,6 +12,7 @@ var swiper = new Swiper(".test__swiper", {
 	effect: 'fade',
 	allowTouchMove: false,
 });
+
 $(document).ready(function() {
 	$(document).on('click', '.show-result', function(event) {
 		$('.result').addClass('show');
@@ -23,6 +24,7 @@ $(document).ready(function() {
 		$('.result').removeClass('show');
 		$('.test__card').removeClass('hide');
 		$('.test__swiper').slideDown();
+		swiper.slideTo(0)
 	});
 });
 
