@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Plumb';
+  font-family: "Plumb";
   src: url("../fonts/plumb-black/plumb-black.eot");
   src: local("plumb-black"), local("../fonts/plumb-black/plumb-black"), url("../fonts/plumb-black/plumb-black.eot?#iefix") format("embedded-opentype"), url("../fonts/plumb-black/plumb-black.woff") format("woff"), url("../fonts/plumb-black/plumb-black.ttf") format("truetype");
   font-weight: 900;
@@ -8,7 +8,7 @@
 }
 
 @font-face {
-  font-family: 'Plumb';
+  font-family: "Plumb";
   src: url("../fonts/plumb-bold/plumb-bold.eot");
   src: local("plumb-bold"), local("../fonts/plumb-bold/plumb-bold"), url("../fonts/plumb-bold/plumb-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/plumb-bold/plumb-bold.woff") format("woff"), url("../fonts/plumb-bold/plumb-bold.ttf") format("truetype");
   font-weight: 700;
@@ -19,10 +19,10 @@
 .test {
   margin-top: 102px;
   position: relative;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   max-width: 1160px;
-  background: #FFFFFF;
+  background: #ffffff;
   -webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
@@ -138,7 +138,7 @@
 }
 
 .test__radiobuttons-item label span:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -192,7 +192,7 @@
 
 .test__btn {
   cursor: pointer;
-  font-family: 'Plumb';
+  font-family: "Plumb";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -214,7 +214,7 @@
 }
 
 .test__btn span::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   width: 30px;
@@ -222,9 +222,9 @@
 }
 
 .test__btn-prev {
-  background: #DDE1E8;
+  background: #dde1e8;
   border-radius: 5px;
-  color: #5F606A;
+  color: #5f606a;
   padding: 15px 20px 15px 55px;
 }
 
@@ -244,7 +244,7 @@
 .test__btn-next {
   background: #242949;
   border-radius: 5px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 15px 55px 15px 20px;
 }
 
@@ -265,13 +265,12 @@
 
 .test .swiper-pagination {
   position: absolute;
-  z-index: 1000;
   bottom: calc(100% + 10px);
   left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
   width: auto;
-  font-family: 'Plumb';
+  font-family: "Plumb";
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -335,14 +334,14 @@
   max-width: 100%;
   margin: 0 auto;
   background-color: #ffffff;
-  border: 2px solid #585D65;
+  border: 2px solid #585d65;
 }
 
 @media (max-width: 768px) {
   .test .result__card {
     padding: 142px 35px 264px;
     border: none;
-    background: #FFFFFF;
+    background: #ffffff;
     -webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
             box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
@@ -356,7 +355,7 @@
 
 .test .result__text {
   margin-top: 40px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
@@ -369,17 +368,17 @@
   cursor: pointer;
   width: 222px;
   height: 60px;
-  background: #6351AC;
+  background: #6351ac;
   border-radius: 5px;
   margin: 60px auto 0;
-  font-family: 'Plumb';
+  font-family: "Plumb";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 150%;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
